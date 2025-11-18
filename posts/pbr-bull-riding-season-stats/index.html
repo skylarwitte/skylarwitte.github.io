@@ -215,7 +215,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Here’s more of the story.</p>
@@ -283,23 +284,23 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
 <span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
-<div id="jamivommuy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#jamivommuy table {
+<div id="cutcqroonf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#cutcqroonf table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#jamivommuy thead, #jamivommuy tbody, #jamivommuy tfoot, #jamivommuy tr, #jamivommuy td, #jamivommuy th {
+#cutcqroonf thead, #cutcqroonf tbody, #cutcqroonf tfoot, #cutcqroonf tr, #cutcqroonf td, #cutcqroonf th {
   border-style: none;
 }
 
-#jamivommuy p {
+#cutcqroonf p {
   margin: 0;
   padding: 0;
 }
 
-#jamivommuy .gt_table {
+#cutcqroonf .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -325,12 +326,12 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-left-color: #D3D3D3;
 }
 
-#jamivommuy .gt_caption {
+#cutcqroonf .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#jamivommuy .gt_title {
+#cutcqroonf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -342,7 +343,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-bottom-width: 0;
 }
 
-#jamivommuy .gt_subtitle {
+#cutcqroonf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -354,7 +355,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-top-width: 0;
 }
 
-#jamivommuy .gt_heading {
+#cutcqroonf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -366,13 +367,13 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-right-color: #D3D3D3;
 }
 
-#jamivommuy .gt_bottom_border {
+#cutcqroonf .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#jamivommuy .gt_col_headings {
+#cutcqroonf .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -387,7 +388,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-right-color: #D3D3D3;
 }
 
-#jamivommuy .gt_col_heading {
+#cutcqroonf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -407,7 +408,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   overflow-x: hidden;
 }
 
-#jamivommuy .gt_column_spanner_outer {
+#cutcqroonf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -419,15 +420,15 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 4px;
 }
 
-#jamivommuy .gt_column_spanner_outer:first-child {
+#cutcqroonf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#jamivommuy .gt_column_spanner_outer:last-child {
+#cutcqroonf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#jamivommuy .gt_column_spanner {
+#cutcqroonf .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -439,11 +440,11 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   width: 100%;
 }
 
-#jamivommuy .gt_spanner_row {
+#cutcqroonf .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#jamivommuy .gt_group_heading {
+#cutcqroonf .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -469,7 +470,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   text-align: left;
 }
 
-#jamivommuy .gt_empty_group_heading {
+#cutcqroonf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -484,15 +485,15 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   vertical-align: middle;
 }
 
-#jamivommuy .gt_from_md > :first-child {
+#cutcqroonf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#jamivommuy .gt_from_md > :last-child {
+#cutcqroonf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#jamivommuy .gt_row {
+#cutcqroonf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -511,7 +512,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   overflow-x: hidden;
 }
 
-#jamivommuy .gt_stub {
+#cutcqroonf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -524,7 +525,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 5px;
 }
 
-#jamivommuy .gt_stub_row_group {
+#cutcqroonf .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -538,15 +539,15 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   vertical-align: top;
 }
 
-#jamivommuy .gt_row_group_first td {
+#cutcqroonf .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#jamivommuy .gt_row_group_first th {
+#cutcqroonf .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#jamivommuy .gt_summary_row {
+#cutcqroonf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -556,16 +557,16 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 5px;
 }
 
-#jamivommuy .gt_first_summary_row {
+#cutcqroonf .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#jamivommuy .gt_first_summary_row.thick {
+#cutcqroonf .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#jamivommuy .gt_last_summary_row {
+#cutcqroonf .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -575,7 +576,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-bottom-color: #D3D3D3;
 }
 
-#jamivommuy .gt_grand_summary_row {
+#cutcqroonf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -585,7 +586,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 5px;
 }
 
-#jamivommuy .gt_first_grand_summary_row {
+#cutcqroonf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -595,7 +596,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-top-color: #D3D3D3;
 }
 
-#jamivommuy .gt_last_grand_summary_row_top {
+#cutcqroonf .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -605,11 +606,11 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-bottom-color: #D3D3D3;
 }
 
-#jamivommuy .gt_striped {
+#cutcqroonf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#jamivommuy .gt_table_body {
+#cutcqroonf .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -618,7 +619,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-bottom-color: #D3D3D3;
 }
 
-#jamivommuy .gt_footnotes {
+#cutcqroonf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -632,7 +633,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-right-color: #D3D3D3;
 }
 
-#jamivommuy .gt_footnote {
+#cutcqroonf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -641,7 +642,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 5px;
 }
 
-#jamivommuy .gt_sourcenotes {
+#cutcqroonf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -655,7 +656,7 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   border-right-color: #D3D3D3;
 }
 
-#jamivommuy .gt_sourcenote {
+#cutcqroonf .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -663,72 +664,72 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
   padding-right: 5px;
 }
 
-#jamivommuy .gt_left {
+#cutcqroonf .gt_left {
   text-align: left;
 }
 
-#jamivommuy .gt_center {
+#cutcqroonf .gt_center {
   text-align: center;
 }
 
-#jamivommuy .gt_right {
+#cutcqroonf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#jamivommuy .gt_font_normal {
+#cutcqroonf .gt_font_normal {
   font-weight: normal;
 }
 
-#jamivommuy .gt_font_bold {
+#cutcqroonf .gt_font_bold {
   font-weight: bold;
 }
 
-#jamivommuy .gt_font_italic {
+#cutcqroonf .gt_font_italic {
   font-style: italic;
 }
 
-#jamivommuy .gt_super {
+#cutcqroonf .gt_super {
   font-size: 65%;
 }
 
-#jamivommuy .gt_footnote_marks {
+#cutcqroonf .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#jamivommuy .gt_asterisk {
+#cutcqroonf .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#jamivommuy .gt_indent_1 {
+#cutcqroonf .gt_indent_1 {
   text-indent: 5px;
 }
 
-#jamivommuy .gt_indent_2 {
+#cutcqroonf .gt_indent_2 {
   text-indent: 10px;
 }
 
-#jamivommuy .gt_indent_3 {
+#cutcqroonf .gt_indent_3 {
   text-indent: 15px;
 }
 
-#jamivommuy .gt_indent_4 {
+#cutcqroonf .gt_indent_4 {
   text-indent: 20px;
 }
 
-#jamivommuy .gt_indent_5 {
+#cutcqroonf .gt_indent_5 {
   text-indent: 25px;
 }
 
-#jamivommuy .katex-display {
+#cutcqroonf .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#jamivommuy div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#cutcqroonf div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -846,6 +847,37 @@ dbl (15): Points, Points Back, Events, Outs, Rides, Buckoffs, prop.Ridden, A...
 <div>
 <figure class="figure">
 <p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Here’s more of the story.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>josh <span class="ot">&lt;-</span> rider <span class="sc">|&gt;</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Rider</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Josh Frost"</span>))</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>rider, </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>prop.Ridden, <span class="at">y=</span><span class="st">`</span><span class="at">Avg Ride Score</span><span class="st">`</span>, <span class="at">size=</span>Rides),</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">color=</span><span class="st">"grey"</span>,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> .<span class="dv">6</span>) <span class="sc">+</span> </span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_point</span>(</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>josh, </span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>prop.Ridden, <span class="at">y=</span><span class="st">`</span><span class="at">Avg Ride Score</span><span class="st">`</span>, <span class="at">size=</span>Rides),</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">color=</span><span class="st">"green"</span>) <span class="sc">+</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_text_repel</span>(</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>rider, </span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>prop.Ridden, <span class="at">y=</span><span class="st">`</span><span class="at">Avg Ride Score</span><span class="st">`</span>, <span class="at">label=</span>Rider)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
