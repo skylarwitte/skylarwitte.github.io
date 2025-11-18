@@ -12,8 +12,8 @@
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Tue, 04 Nov 2025 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>Who was the best bull rider in the 2023 PBR season overall</title>
-  <dc:creator>Skylar R. Witte</dc:creator>
+  <title>Who was the best bull rider in the 2023 PBR season overall?</title>
+  <dc:creator>Skylar Witte</dc:creator>
   <link>https://your-website-url.example.com/posts/pbr-bull-riding-season-stats/</link>
   <description><![CDATA[ 
 
@@ -21,7 +21,8 @@
 
 
 
-<p>Nebraska is on track for a title run.</p>
+<p>The Professional Bull Riders (PBR) season of 2023 featured hundreds of rides and dozens of talented athletes. But out of all the riders, who had the best overall season?</p>
+<p>The complicated part about ranking PBR riders is that there are so many stats you have to consider. Just because a rider wins the PBR World Finals, it doesn’t necessarily mean they had the best season out of all other riders. Maybe they just had a good day. To find out this answer, there are three main stats we can look at: consistency, total success, and ride quality. Let’s look at these metrics to see not only who held on the longest while riding, but who scored the best overall.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -51,7 +52,6 @@ background-color: null;
 font-style: inherit;">library</span>(ggrepel)</span></code></pre></div></div>
 </details>
 </div>
-<p>Here’s more of the story.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -115,12 +115,12 @@ font-style: inherit;">tab_header</span>(</span>
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Who had the best riding percentage of the 2023 season?"</span>,</span>
+font-style: inherit;">"Who had the best ride percentage of the 2023 season?"</span>,</span>
 <span id="cb6-9">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Josh Frost was miles ahead of all other riders with a perfect riding percentage, while Elizmar Jeremias had the worst riding percentage of 30."</span></span>
+font-style: inherit;">"Josh Frost was miles ahead of all other riders with a perfect ride percentage, while Elizmar Jeremias had the worst ride percentage of 30."</span></span>
 <span id="cb6-10">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
@@ -324,23 +324,23 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
 <span id="cb6-44">  )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
-<div id="sgtjifynfq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#sgtjifynfq table {
+<div id="drvineblsw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#drvineblsw table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#sgtjifynfq thead, #sgtjifynfq tbody, #sgtjifynfq tfoot, #sgtjifynfq tr, #sgtjifynfq td, #sgtjifynfq th {
+#drvineblsw thead, #drvineblsw tbody, #drvineblsw tfoot, #drvineblsw tr, #drvineblsw td, #drvineblsw th {
   border-style: none;
 }
 
-#sgtjifynfq p {
+#drvineblsw p {
   margin: 0;
   padding: 0;
 }
 
-#sgtjifynfq .gt_table {
+#drvineblsw .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -366,12 +366,12 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-left-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_caption {
+#drvineblsw .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#sgtjifynfq .gt_title {
+#drvineblsw .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -383,7 +383,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-bottom-width: 0;
 }
 
-#sgtjifynfq .gt_subtitle {
+#drvineblsw .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -395,7 +395,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-top-width: 0;
 }
 
-#sgtjifynfq .gt_heading {
+#drvineblsw .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -407,13 +407,13 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-right-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_bottom_border {
+#drvineblsw .gt_bottom_border {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_col_headings {
+#drvineblsw .gt_col_headings {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -428,7 +428,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-right-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_col_heading {
+#drvineblsw .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -448,7 +448,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   overflow-x: hidden;
 }
 
-#sgtjifynfq .gt_column_spanner_outer {
+#drvineblsw .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -460,15 +460,15 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 4px;
 }
 
-#sgtjifynfq .gt_column_spanner_outer:first-child {
+#drvineblsw .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#sgtjifynfq .gt_column_spanner_outer:last-child {
+#drvineblsw .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#sgtjifynfq .gt_column_spanner {
+#drvineblsw .gt_column_spanner {
   border-bottom-style: none;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -480,11 +480,11 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   width: 100%;
 }
 
-#sgtjifynfq .gt_spanner_row {
+#drvineblsw .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#sgtjifynfq .gt_group_heading {
+#drvineblsw .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -510,7 +510,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   text-align: left;
 }
 
-#sgtjifynfq .gt_empty_group_heading {
+#drvineblsw .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -525,15 +525,15 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   vertical-align: middle;
 }
 
-#sgtjifynfq .gt_from_md > :first-child {
+#drvineblsw .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#sgtjifynfq .gt_from_md > :last-child {
+#drvineblsw .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#sgtjifynfq .gt_row {
+#drvineblsw .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -552,7 +552,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   overflow-x: hidden;
 }
 
-#sgtjifynfq .gt_stub {
+#drvineblsw .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -565,7 +565,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 5px;
 }
 
-#sgtjifynfq .gt_stub_row_group {
+#drvineblsw .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -579,15 +579,15 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   vertical-align: top;
 }
 
-#sgtjifynfq .gt_row_group_first td {
+#drvineblsw .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#sgtjifynfq .gt_row_group_first th {
+#drvineblsw .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#sgtjifynfq .gt_summary_row {
+#drvineblsw .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -597,16 +597,16 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 5px;
 }
 
-#sgtjifynfq .gt_first_summary_row {
+#drvineblsw .gt_first_summary_row {
   border-top-style: none;
   border-top-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_first_summary_row.thick {
+#drvineblsw .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#sgtjifynfq .gt_last_summary_row {
+#drvineblsw .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -616,7 +616,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-bottom-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_grand_summary_row {
+#drvineblsw .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -626,7 +626,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 5px;
 }
 
-#sgtjifynfq .gt_first_grand_summary_row {
+#drvineblsw .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -636,7 +636,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-top-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_last_grand_summary_row_top {
+#drvineblsw .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -646,11 +646,11 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-bottom-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_striped {
+#drvineblsw .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#sgtjifynfq .gt_table_body {
+#drvineblsw .gt_table_body {
   border-top-style: none;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -659,7 +659,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-bottom-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_footnotes {
+#drvineblsw .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -673,7 +673,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-right-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_footnote {
+#drvineblsw .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -682,7 +682,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 5px;
 }
 
-#sgtjifynfq .gt_sourcenotes {
+#drvineblsw .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -696,7 +696,7 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   border-right-color: #D3D3D3;
 }
 
-#sgtjifynfq .gt_sourcenote {
+#drvineblsw .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -704,72 +704,72 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
   padding-right: 5px;
 }
 
-#sgtjifynfq .gt_left {
+#drvineblsw .gt_left {
   text-align: left;
 }
 
-#sgtjifynfq .gt_center {
+#drvineblsw .gt_center {
   text-align: center;
 }
 
-#sgtjifynfq .gt_right {
+#drvineblsw .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#sgtjifynfq .gt_font_normal {
+#drvineblsw .gt_font_normal {
   font-weight: normal;
 }
 
-#sgtjifynfq .gt_font_bold {
+#drvineblsw .gt_font_bold {
   font-weight: bold;
 }
 
-#sgtjifynfq .gt_font_italic {
+#drvineblsw .gt_font_italic {
   font-style: italic;
 }
 
-#sgtjifynfq .gt_super {
+#drvineblsw .gt_super {
   font-size: 65%;
 }
 
-#sgtjifynfq .gt_footnote_marks {
+#drvineblsw .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#sgtjifynfq .gt_asterisk {
+#drvineblsw .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#sgtjifynfq .gt_indent_1 {
+#drvineblsw .gt_indent_1 {
   text-indent: 5px;
 }
 
-#sgtjifynfq .gt_indent_2 {
+#drvineblsw .gt_indent_2 {
   text-indent: 10px;
 }
 
-#sgtjifynfq .gt_indent_3 {
+#drvineblsw .gt_indent_3 {
   text-indent: 15px;
 }
 
-#sgtjifynfq .gt_indent_4 {
+#drvineblsw .gt_indent_4 {
   text-indent: 20px;
 }
 
-#sgtjifynfq .gt_indent_5 {
+#drvineblsw .gt_indent_5 {
   text-indent: 25px;
 }
 
-#sgtjifynfq .katex-display {
+#drvineblsw .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#sgtjifynfq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#drvineblsw div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -777,10 +777,10 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_heading header">
-<td colspan="2" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Who had the best riding percentage of the 2023 season?</td>
+<td colspan="2" class="gt_heading gt_title gt_font_normal" style="text-align: left; color: #000000; font-weight: bold;">Who had the best ride percentage of the 2023 season?</td>
 </tr>
 <tr class="gt_heading even">
-<td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Josh Frost was miles ahead of all other riders with a perfect riding percentage, while Elizmar Jeremias had the worst riding percentage of 30.</td>
+<td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="text-align: left; color: #000000;">Josh Frost was miles ahead of all other riders with a perfect ride percentage, while Elizmar Jeremias had the worst ride percentage of 30.</td>
 </tr>
 <tr class="gt_col_headings header">
 <th id="Rider" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: #000000; font-size: 12; font-weight: bold" scope="col">Rider</th>
@@ -855,7 +855,8 @@ font-style: inherit;">"Elizmar Jeremias"</span>)</span>
 </div>
 </div>
 </div>
-<p>Here’s more of the story.</p>
+<p>One of the most important stats to look at when deciding a rider’s success is their ride percentage. Here, we can see how often each rider successfully completed their ride. How a rider completes a ride is by last the full eight seconds.</p>
+<p>Riders with a higher ride percentage are the most consistant, and when looking at the table, Josh Frost was miles ahead of other riders with a perfect ride percentage. This shows that every time Frost hopped on a bull, he made it to the bell every time. Elizmar Jeremias struggled this season with holding on, as he was the least consistent throughout the season at 30%.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -875,12 +876,28 @@ font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Alex Cerqueira"</span>))</span>
 <span id="cb7-4"></span>
-<span id="cb7-5"><span class="fu" style="color: #4758AB;
+<span id="cb7-5">josh <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> rider <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="cb7-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(Rider</span>
+<span id="cb7-7">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Josh Frost"</span>))</span>
+<span id="cb7-8"></span>
+<span id="cb7-9"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb7-6">  <span class="fu" style="color: #4758AB;
+<span id="cb7-10">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -899,7 +916,7 @@ background-color: null;
 font-style: inherit;">"lightgrey"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb7-7">  <span class="fu" style="color: #4758AB;
+<span id="cb7-11">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -915,59 +932,78 @@ font-style: inherit;">weight=</span> Rides),  <span class="at" style="color: #65
 background-color: null;
 font-style: inherit;">fill=</span><span class="st" style="color: #20794D;
 background-color: null;
+font-style: inherit;">"red"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-12"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data=</span>josh, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span> (<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">reorder</span>(Rider, Rides), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">weight=</span> Rides),  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span><span class="st" style="color: #20794D;
+background-color: null;
 font-style: inherit;">"green"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb7-8">  <span class="fu" style="color: #4758AB;
+<span id="cb7-13">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">coord_flip</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb7-9">  <span class="fu" style="color: #4758AB;
+<span id="cb7-14">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb7-10">    <span class="at" style="color: #657422;
+<span id="cb7-15">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">""</span>, </span>
-<span id="cb7-11">    <span class="at" style="color: #657422;
+<span id="cb7-16">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Qualifying Rides"</span>, </span>
-<span id="cb7-12">    <span class="at" style="color: #657422;
+<span id="cb7-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Who had the most successful rides during the 2023 PBR season."</span>, </span>
-<span id="cb7-13">    <span class="at" style="color: #657422;
+<span id="cb7-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Alex Cerqueira may not have had the best riding percentage, but he had the most 8-second rides during the season."</span>, </span>
-<span id="cb7-14">    <span class="at" style="color: #657422;
+<span id="cb7-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Source: PBR | Skylar Witte"</span></span>
-<span id="cb7-15">    ) <span class="sc" style="color: #5E5E5E;
+<span id="cb7-20">    ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb7-16">  <span class="fu" style="color: #4758AB;
+<span id="cb7-21">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb7-17"><span class="fu" style="color: #4758AB;
+<span id="cb7-22"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(</span>
-<span id="cb7-18">    <span class="at" style="color: #657422;
+<span id="cb7-23">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title.position =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"plot"</span>,</span>
-<span id="cb7-19">   <span class="at" style="color: #657422;
+<span id="cb7-24">   <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -980,7 +1016,7 @@ background-color: null;
 font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"bold"</span>),</span>
-<span id="cb7-20">   <span class="at" style="color: #657422;
+<span id="cb7-25">   <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -989,7 +1025,7 @@ background-color: null;
 font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>), </span>
-<span id="cb7-21">   <span class="at" style="color: #657422;
+<span id="cb7-26">   <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">axis.title =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -998,12 +1034,12 @@ background-color: null;
 font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">8</span>), </span>
-<span id="cb7-22">    <span class="at" style="color: #657422;
+<span id="cb7-27">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">panel.grid.minor =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">element_blank</span>(),</span>
-<span id="cb7-23">)</span></code></pre></div></div>
+<span id="cb7-28">)</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -1013,38 +1049,23 @@ font-style: inherit;">element_blank</span>(),</span>
 </div>
 </div>
 </div>
-<p>Here’s more of the story.</p>
+<p>Different from the last table, here we are looking at total qualifying rides. And as we can see, Frost is not at the top of the list. Alex Cerqueira had the highest number of rides.</p>
+<p>This may be confusing, but let me explain. This is possible because you can stand out in number of qualified rides even if you don’t in consistency. Some people ride more bulls. And Cerqueira must have rode more bulls than Frost, but he didn’t stay on as many as Frost did. Frost rode the full eight seconds on every bull he rode, while Cerqueira had more rides but didn’t last to the bell. When we look at the graph, Frost was still ranked third overall.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">josh <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> rider <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">|&gt;</span></span>
-<span id="cb8-2">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">filter</span>(Rider</span>
-<span id="cb8-3">  <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Josh Frost"</span>))</span>
-<span id="cb8-4"></span>
-<span id="cb8-5"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb8-6">  <span class="fu" style="color: #4758AB;
+<span id="cb8-2">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(</span>
-<span id="cb8-7">    <span class="at" style="color: #657422;
+<span id="cb8-3">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data=</span>rider, </span>
-<span id="cb8-8">    <span class="fu" style="color: #4758AB;
+<span id="cb8-4">    <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1059,24 +1080,52 @@ background-color: null;
 font-style: inherit;">`</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">size=</span>Rides),</span>
-<span id="cb8-9">    <span class="at" style="color: #657422;
+<span id="cb8-5">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"grey"</span>,</span>
-<span id="cb8-10">    <span class="at" style="color: #657422;
+<span id="cb8-6">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">alpha =</span> .<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">6</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb8-11"><span class="fu" style="color: #4758AB;
+<span id="cb8-7"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(</span>
-<span id="cb8-12">    <span class="at" style="color: #657422;
+<span id="cb8-8">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data=</span>josh, </span>
+<span id="cb8-9">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span>prop.Ridden, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Avg Ride Score</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">`</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span>Rides),</span>
+<span id="cb8-10">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"green"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb8-11">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_text_repel</span>(</span>
+<span id="cb8-12">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data=</span>rider, </span>
 <span id="cb8-13">    <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
@@ -1091,67 +1140,39 @@ font-style: inherit;">Avg Ride Score</span><span class="st" style="color: #20794
 background-color: null;
 font-style: inherit;">`</span>, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">size=</span>Rides),</span>
-<span id="cb8-14">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"green"</span>) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb8-15">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">geom_text_repel</span>(</span>
-<span id="cb8-16">    <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">data=</span>rider, </span>
-<span id="cb8-17">    <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x=</span>prop.Ridden, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">`</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">Avg Ride Score</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">`</span>, <span class="at" style="color: #657422;
-background-color: null;
 font-style: inherit;">label=</span>Rider)</span>
-<span id="cb8-18">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb8-14">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb8-19">  <span class="fu" style="color: #4758AB;
+<span id="cb8-15">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb8-20">    <span class="at" style="color: #657422;
+<span id="cb8-16">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Ride Success Percentage"</span>, </span>
-<span id="cb8-21">    <span class="at" style="color: #657422;
+<span id="cb8-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Average Ride Score"</span>, </span>
-<span id="cb8-22">    <span class="at" style="color: #657422;
+<span id="cb8-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"PBR 2023 riders ranked by consistency and ride quality."</span>, </span>
-<span id="cb8-23">    <span class="at" style="color: #657422;
+<span id="cb8-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Josh Frost stands out as the season's top rider with perfect ride consistency, strong average scores, and a high number of qualified rides."</span>, </span>
-<span id="cb8-24">    <span class="at" style="color: #657422;
+<span id="cb8-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption=</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Source: PBR | Skylar Witte"</span></span>
-<span id="cb8-25">    )</span></code></pre></div></div>
+<span id="cb8-21">    )</span></code></pre></div></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -1161,6 +1182,8 @@ font-style: inherit;">"Source: PBR | Skylar Witte"</span></span>
 </div>
 </div>
 </div>
+<p>In our bubble chart, we combine everything we have looked at so far, as well as adding on each rider’s average ride score. Average ride score tells us how skillful and effective each rider’s qualified ride was. This is taken from the judge’s final score of the rider, which includes technique, difficulty and style. So to summarize, this is pretty much the most important statistic in bull riding.</p>
+<p>And there is Josh Frost. He was in a league of his own this season. Not only did he have the best ride percentage, he also has a very strong average ride score and a good amount of rides. This final graph proves to us that Josh Frost was the best overall rider of the PBR 2023 season, with perfect consistency, strong average scores, and a good number of rides.</p>
 
 
 
