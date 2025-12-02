@@ -10,7 +10,30 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog about bull riding</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Tue, 04 Nov 2025 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 09 Dec 2025 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Which Bull Was The Best In The PBR 2023 Season</title>
+  <dc:creator>Skylar Witte</dc:creator>
+  <link>https://your-website-url.example.com/posts/pbr-bull-stats-2023/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a story about bulls in the PBR 2023 Tour Pro Division.</p>
+
+
+
+ ]]></description>
+  <category>pbr</category>
+  <category>bull riding</category>
+  <category>rodeo</category>
+  <category>bulls</category>
+  <guid>https://your-website-url.example.com/posts/pbr-bull-stats-2023/</guid>
+  <pubDate>Tue, 09 Dec 2025 06:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/pbr-bull-stats-2023/image.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Bucking the Competition: Who Dominated the 2023 PBR Season?</title>
   <dc:creator>Skylar Witte</dc:creator>
