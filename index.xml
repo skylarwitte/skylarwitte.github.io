@@ -197,7 +197,7 @@ font-style: inherit;">"Which Bull Shut Riders Down the Most"</span>, </span>
 background-color: null;
 font-style: inherit;">subtitle=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Out of all the bulls that participated in the 2023 Pro Tour Division, only five had more than one buckoff.</span></span>
+font-style: inherit;">"Out of all the bulls that participated in the 2023 Pro Tour Division, only seven had more than one buckoff.</span></span>
 <span id="cb7-21"><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">    These bulls were the most difficult to ride in the 2023 season."</span>, </span>
@@ -268,6 +268,9 @@ font-style: inherit;">element_blank</span>(),</span>
 </div>
 </div>
 </div>
+<p>For my first graph, I wanted to see which bulls were at the top. By “top” I mean who was the hardest to ride. To show this, I looked into how many buck offs each bull had. Buck offs measure how many riders a bull has bucked off. The higher the buck off total, the more difficult and dominant the bull is.</p>
+<p>In the bar chart, there are only seven bulls out of the entire season that had more than one buck off: Shameless, Juicy, John 14:6, Hard Rock, Group Assault, Flapjack and Big Pokey. That may seem like a lot, but this is seven of 50 bulls that competed. These seven got riders off the quickest, putting them at the top of our list.</p>
+<p>Now that we know what bulls are the most difficult to ride, let’s move to which of these bulls have the best quality of ride.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -488,6 +491,8 @@ font-style: inherit;">element_blank</span>()</span>
 </div>
 </div>
 </div>
+<p>In this bubble chart, I looked into both the average bull score and average buck off time of each bull. The average score shows how judges rated the bull’s athleticism and power, while the average time shows how long riders were able to hold on before taking the fall. The bubble sizes are to show outs, which are the same buck offs.</p>
+<p>When looking at the chart, you may want to say that the data in the top-right quadrant is the most important. But I beg to differ. Those data points only have one out connected to them. The ones that are more important are the ones with the larger bubbles, meaning they had more buck offs. So knowing this, Hard Rock and Juicy would be in the running for top bull across these dimensions.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
