@@ -695,7 +695,7 @@ font-style: inherit;">element_blank</span>()</span>
   <category>bulls</category>
   <guid>https://your-website-url.example.com/posts/pbr-bull-stats-2023/</guid>
   <pubDate>Tue, 09 Dec 2025 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/pbr-bull-stats-2023/image.png" medium="image" type="image/png"/>
+  <media:content url="https://your-website-url.example.com/posts/pbr-bull-stats-2023/image.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 <item>
   <title>Bucking the Competition: Who Dominated the 2023 PBR Season?</title>
